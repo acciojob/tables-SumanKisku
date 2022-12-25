@@ -11,9 +11,10 @@
 	<!-- the entire body must be written by student -->
 
 	<div class="container">
-		<table class="table">
-			<thead>
-				<tr class="table-dark">
+		<table class="table table-responsive table-hover">
+			<caption>List of all transcations</caption>
+			<thead class="table-dark">
+				<tr>
 					<th>#</th>
 					<th>From</th>
 					<th>To</th>
@@ -39,13 +40,13 @@
 					<td>John</td>
 					<td>2000</td>
 				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td id="total" class="font-monospace text-end fw-bold">total 4000</td>
-				</tr>
 			</tbody>
+			<tfoot>
+				<tr>
+					<td class="font-monospace text-end fw-bold" colspan="3">Total</td>
+					<td id="total" class="font-monospace fw-bold" colspan="1">4000</td>
+				</tr>
+			</tfoot>
 		</table>
 	</div>
 
